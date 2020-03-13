@@ -70,7 +70,7 @@ class Server(BaseHTTPRequestHandler):
                     'error': '400 - Bad Rsequest'
                 }).encode())
                 
-    #This method translates to RUV currency 
+    #This method translates to RUB currency, rate from rbc.ru
     @staticmethod
     def count(in_currency):
         new_currency = in_currency * 72
