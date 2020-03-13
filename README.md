@@ -10,8 +10,8 @@ There was some problems with docker-compose, so I had to use only docker.
 
 **If you have troubles with access, then:**
 1. Run command: "docker container ls"
-1. Run: ""docker inspect <contaner_id> | grep '"IPAddress"' | head -n 1
-1. Edit line in Dockerfile "172.17.0.2" to "<ip of your container>"
+1. Run: "docker inspect <contaner_id> | grep '"IPAddress"' | head -n 1"
+1. Edit line in Dockerfile "172.17.0.2" to <ip of your container>
 1. Rebuild container
 
 *Task for Qmobi made by Eugene Bazarov.*
